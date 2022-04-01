@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Описание проекта">
+    <title>Pro Spa</title>
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <div class="page-body">
+      <div class="page-header">
+        <header class="page-header__wrapper centering-container">
+          <a class="page-header__logo" href="#">
+            <img src="img/svg/Icon Logo.svg" alt="логотип компании" width="97" height="29">
+          </a>
+          <nav class="page-header__nav main-nav main-nav--closed main-nav--nojs">
+            <button class="main-nav__toggle" type="button">
+              <span class="visually-hidden">Открыть меню</span>
+              <svg class="main-nav__open-button" width="24" height="24">
+                <use xlink:href="img/sprite_auto.svg#Icons Menu Gamburger"></use>
+              </svg>
+              <svg class="main-nav__close-button" width="24" height="24">
+                <use xlink:href="img/sprite_auto.svg#Icons Menu Close"></use>
+              </svg>
+            </button>
+            <ul class="main-nav__list">
+              <li class="main-nav__item main-nav__item--content">
+                <a class="main-nav__link" href="#">
+                  <span>Сауны</span>
+                  <svg width="16" height="16" stroke="#000000">
+                    <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="main-nav__item main-nav__item--content">
+                <a class="main-nav__link" href="#">
+                  <span>Бани</span>
+                  <svg width="16" height="16" stroke="#000000">
+                    <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="main-nav__item main-nav__item--content">
+                <a class="main-nav__link" href="#">
+                  <span>Хаммамы</span>
+                  <svg width="16" height="16" stroke="#000000">
+                    <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="main-nav__item main-nav__item--content">
+                <a class="main-nav__link" href="#">
+                  <span>Бассейны</span>
+                  <svg width="16" height="16" stroke="#000000">
+                    <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="main-nav__item main-nav__item--content">
+                <a class="main-nav__link" href="#">
+                  <span>SPA-комплексы</span>
+                  <svg width="16" height="16" stroke="#000000">
+                    <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="main-nav__item main-nav__item--content">
+                <a class="main-nav__link" href="#">
+                  <span>Камины</span>
+                  <svg width="16" height="16" stroke="#000000">
+                    <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link main-nav__link--show-more" href="#">
+                  <span>
+                    Еще
+                    <span class="main-nav__show-more-mobile-content">разделы</span>
+                  </span>
+                  <svg width="16" height="16" fill="none" stroke="#000000">
+                    <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="page-header__lk lk">
+            <a href="#" class="lk__icon lk__icon--notification">
+              <svg width="24" height="24">
+                <use xlink:href="img/sprite_auto.svg#Icons Menu Notification"></use>
+              </svg>
+              <div class="lk__counter-wrapper active">
+                <span class="lk__counter--notification">2</span>
+              </div>
+            </a>
+            <a href="#" class="lk__icon lk__icon--favourite">
+              <svg width="24" height="24">
+                <use xlink:href="img/sprite_auto.svg#Icons Menu Favourite"></use>
+              </svg>
+              <div class="lk__counter-wrapper lk__counter-wrapper--notification">
+                <span class="lk__counter--notification">32</span>
+              </div>
+            </a>
+            <a class="lk__button button lk__button--order" href="#">Заказать проект</a>
+            <a class="lk__button button lk__button--sign-in" href="#">Войти</a>
+          </div>
+        </header>
+      </div>
+
+      <main class="page-main">
+        <div class="page-main__bread-crumbs bread-crumbs centering-container">
+          <ul class="bread-crumbs__list">
+            <li class="bread-crumbs__item">Строительство</li>
+            <li class="bread-crumbs__item">Сауна</li>
+          </ul>
+        </div>
+        <div class="centering-container">
+          <h1>Строительство саун</h1>
+        </div>
+        <div class="page-main__fast-filter fast-filter">
+          <ul class="fast-filter__list">
+            <li class="fast-filter__item">
+              <button class="fast-filter__button button" type="button">Для квартиры</button>
+            </li>
+            <li class="fast-filter__item">
+              <button class="fast-filter__button button" type="button">Для дачи</button>
+            </li>
+            <li class="fast-filter__item">
+              <button class="fast-filter__button button" type="button">Для бизнеса</button>
+            </li>
+            <li class="fast-filter__item">
+              <button class="fast-filter__button button" type="button">Дизайнерские</button>
+            </li>
+            <li class="fast-filter__item">
+              <button class="fast-filter__button button" type="button">Недорогие</button>
+            </li>
+            <li class="fast-filter__item">
+              <button class="fast-filter__button button" type="button">До 40м</button>
+            </li>
+          </ul>
+        </div>
+        <div class="page-main__sorting-wrapper centering-container">
+          <div class="page-main__sorting sorting">
+            <button class="sorting__tougle" type="button">
+              <svg class="filter-tougle__icon" width="16" height="16">
+                <use xlink:href="img/sprite_auto.svg#Icon Sort"></use>
+              </svg>
+            </button>
+            <span class="sorting__indicator">Сначала популярные</span>
+            <ul class="sorting__list sorting__list--closed">
+              <li class="sorting__item">
+                <button class="sorting__button sorting__button--new" type="button">Новизна</button>
+              </li>
+              <li class="sorting__item">
+                <button class="sorting__button sorting__button--price" type="button">Цена</button>
+              </li>
+            </ul>
+          </div>
+          <button class="page-main__filter-toggle filter-toggle filter-toggle--hiden" type="button">
+            <svg class="filter-toggle__icon" width="16" height="16">
+              <use xlink:href="img/sprite_auto.svg#Icon Filter"></use>
+            </svg>
+            <span class="filter-toggle__text filter-toggle__text--opened">Скрыть фильтр</span>
+            <span class="filter-toggle__text filter-toggle__text--closed">Показать фильтр</span>
+            <span class="filter-toggle__text filter-toggle__text--mobile">фильтр</span>
+          </button>
+        </div>
+        <div class="page-main__goods-and-filter-wrapper centering-container--goods-and-filter">
+          <div class="page-main__goods goods">
+            <ul class="goods__list">
+              <div class="goods__item good-item">
+                <div class="good-item__image-wrapper">
+                  <div class="good-item__slider swiper">
+                    <div class="good-item__list swiper-wrapper">
+                      <div class="good-item__photo swiper-slide">
+                        <picture>
+                          <source class="good-item__image--webp" type="image/webp" srcset="img/content/image-14.webp, img/content/image-14@2x.webp 2x">
+                          <img class="good-item__image" src="img/content/image-14.jpg" width="260" height="386" alt="фото сауны">
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="good-item__feature-wrapper">
+                    <div class="good-item__feature good-item__feature--comment feature">
+                      <svg width="16" height="16" fill="#FFFFF">
+                        <use xlink:href="img/sprite_auto.svg#Icon Comment"></use>
+                      </svg>
+                      <span class="feature__counter feature__counter--comment">20</span>
+                    </div>
+                    <div class="good-item__feature good-item__feature--like feature">
+                      <svg width="16" height="16" fill="#FFFFF">
+                        <use xlink:href="img/sprite_auto.svg#Icon Favourite"></use>
+                      </svg>
+                      <span class="feature__counter feature__counter--like">235</span>
+                    </div>
+                  </div>
+                  <div class="good-item__new">
+                    <span>new</span>
+                  </div>
+                </div>
+                <div class="good-item__description">
+                  <div class="good-item__parameters">
+                    <div>
+                      <span class="good-item__type">Сауна</span>
+                    </div>
+                    <div>
+                      <span class="good-item__area">34</span>
+                      <span>м<sup>2</sup></span>
+                    </div>
+                    <div>
+                      <span class="good-item__name">EOS</span>
+                    </div>
+                  </div>
+                  <span class="good-item__location">Москва, квартира</span>
+                  <span class="good-item__company">Твой пар</span>
+                </div>
+              </div>
+            </ul>
+            <button class="goods__show-more-button button">Показать еще</button>
+            <ul class="goods__pages pages">
+              <li class="pages__item">
+                <a href="#">
+                  <span>1</span>
+                </a>
+              </li>
+              <li class="pages__item">
+                <a href="#">
+                  <span>2</span>
+                </a>
+              </li>
+              <li class="pages__item">
+                <a href="#">
+                  <span>3</span>
+                </a>
+              </li>
+              <li class="pages__item">
+                <a href="#">
+                  <span>4</span>
+                </a>
+              </li>
+              <li class="pages__item">
+                <a href="#">
+                  <span>5</span>
+                </a>
+              </li>
+              <li class="pages__item">
+                <a href="#">
+                  <span>6</span>
+                </a>
+              </li>
+              <li class="pages__item pages__item--points">
+                <a href="#">
+                  <span>...</span>
+                </a>
+              </li>
+              <li class="pages__item">
+                <a href="#">
+                  <span>99</span>
+                </a>
+              </li>
+              <li class="pages__item">
+                <a href="#">
+                  <span>100</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="page-main__filter filter hidden">
+            <div class="filter__mobile-header">
+              <span>Фильтр</span>
+              <button class="filter__mobile-button" type="button">
+                <svg width="16" height="16">
+                  <use xlink:href="img/sprite_auto.svg#Icons Menu Close"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="filter__wrapper">
+              <div class="filter__block filter-block">
+                <header class="filter-block__header">
+                  <h2>Компания</h2>
+                  <span class="filter-block__counter filter-block__counter--company">2</span>
+                  <button class="filter-block__show-button filter-block__show-button--company filter-block__show-button--closed" type="button">
+                    <svg width="16" height="16" stroke="none">
+                      <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                    </svg>
+                  </button>
+                </header>
+                <div class="filter-block__search search">
+                  <label class="visually-hidden" for="search-id">поиск</label>
+                  <input type="text" name="search" id="search-id" placeholder="Найти">
+                </div>
+                <ul class="filter-block__param-list param-list param-list--companies">
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="95-degrees" checked>
+                    <label for="95-degrees">95 градусов</label>
+                  </li>
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="contact-plus">
+                    <label for="contact-plus">Контакт Плюс</label>
+                  </li>
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="your-steam">
+                    <label for="your-steam">Твой пар</label>
+                  </li>
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="3d-sauna">
+                    <label for="3d-sauna">3D сауна</label>
+                  </li>
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="iki">
+                    <label for="iki">IKI</label>
+                  </li>
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="95-degrees">
+                    <label for="95-degrees">95 градусов</label>
+                  </li>
+                </ul>
+                <button class="filter-block__show-more-button">Посмотреть все</button>
+              </div>
+              <div class="filter__block filter-block">
+                <header class="filter-block__header">
+                  <h2>Цена</h2>
+                  <span class="filter-block__counter filter-block__counter--price"></span>
+                  <button class="filter-block__show-button filter-block__show-button--company" type="button">
+                    <svg width="16" height="16">
+                      <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                    </svg>
+                  </button>
+                </header>
+                <ul class="filter-block__param-list param-list">
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="chipest" checked>
+                    <label for="chipest">до 10 000 &#8381;</label>
+                  </li>
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="middle">
+                    <label for="middle">10 001 – 30 000</label>
+                  </li>
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="heigh">
+                    <label for="heigh">30 001 – 50 000</label>
+                  </li>
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="top">
+                    <label for="top">50 000 ₽ и более</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="filter__block filter-block">
+                <header class="filter-block__header">
+                  <h2>объем</h2>
+                  <span class="filter-block__counter filter-block__counter--price"></span>
+                  <button class="filter-block__show-button filter-block__show-button--company" type="button">
+                    <svg width="16" height="16">
+                      <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                    </svg>
+                  </button>
+                </header>
+                <ul class="filter-block__param-list param-list">
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="less-10kW" checked>
+                    <label for="20kW">до 10 кВт</label>
+                  </li>
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="20kW">
+                    <label for="20kW">10-20 кВт</label>
+                  </li>
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="30kW">
+                    <label for="30kW">20-30 кВт</label>
+                  </li>
+                  <li class="param-list__item">
+                    <input class="param-list__checkbox visually-hidden" type="checkbox" id="more-20kW">
+                    <label for="more-20kW">30 кВт</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="filter__block filter-block">
+                <header class="filter-block__header">
+                  <h2>объем парной</h2>
+                  <span class="filter-block__counter filter-block__counter--price"></span>
+                  <button class="filter-block__show-button filter-block__show-button--company" type="button">
+                    <svg width="16" height="16">
+                      <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                    </svg>
+                  </button>
+                </header>
+                <ul class="filter-block__param-list param-list">
+                </ul>
+              </div>
+              <div class="filter__block filter-block">
+                <header class="filter-block__header">
+                  <h2>парогенератор</h2>
+                  <span class="filter-block__counter filter-block__counter--price"></span>
+                  <button class="filter-block__tougle tougle active" type="button">
+                    <div class="tougle__wrapper">
+                      <div class="tougle__lever"></div>
+                    </div>
+                  </button>
+                </header>
+              </div>
+              <div class="filter__block filter-block">
+                <header class="filter-block__header">
+                  <h2>управление</h2>
+                  <span class="filter-block__counter filter-block__counter--price"></span>
+                  <button class="filter-block__show-button filter-block__show-button--company" type="button">
+                    <svg width="16" height="16">
+                      <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                    </svg>
+                  </button>
+                </header>
+                <ul class="filter-block__param-list param-list">
+                </ul>
+              </div>
+              <div class="filter__block filter-block">
+                <header class="filter-block__header">
+                  <h2>установка</h2>
+                  <span class="filter-block__counter filter-block__counter--price"></span>
+                  <button class="filter-block__show-button filter-block__show-button--company" type="button">
+                    <svg width="16" height="16">
+                      <use xlink:href="img/sprite_auto.svg#Icon Select"></use>
+                    </svg>
+                  </button>
+                </header>
+                <ul class="filter-block__param-list param-list">
+                </ul>
+              </div>
+              <button class="filter__clear-button button">Очистить филтр</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="js/vendor.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
